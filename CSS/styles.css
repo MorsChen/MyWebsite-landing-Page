@@ -1,0 +1,78 @@
+body {
+    padding: 6rem;
+    background-color: rgb(19, 1, 1);
+    /* background: url(../img/Money11111.jpeg) */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: 1em;
+    background-color: rgba(37, 27, 27, 0.425);
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    border-radius: 20em;
+    position: relative;
+    /* background:  url(../img/Money-Origami1.jpeg) */
+}
+div::before {
+    content: "";
+    border-radius: 20em;
+    background: url(../img/Money11111.jpeg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+h1 {
+    color: rgba(0, 255, 255, 0.808);
+    font-size: 4rem;
+}
+
+#inputValue {
+    border-radius: 4em;
+    border-style: hidden;
+    width: 30rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(124, 48, 194);
+    outline: none;
+}
+
+#inputValue:hover {
+    opacity: 0.9;
+    order: unset;
+    
+}
+
+.buttons {
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
+}
+
+.buttons:hover {
+    opacity: 0.75;
+}
+
+#btns {
+    border-radius: 1em;
+    background-color: gold;
+    border-style: groove;
+    border-spacing: 2em;
+    font-size: 2em;
+    color: navy;
+    outline: none;
+}
+
+h3 {
+    font-size: 3rem;
+    color: rgb(126, 2, 2);
+}
