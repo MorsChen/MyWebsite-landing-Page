@@ -1,34 +1,32 @@
 body {
-    padding: 6rem;
-    background-color: rgb(19, 1, 1);
-    /* background: url(../img/Money11111.jpeg) */
+    background: url(../img/manhattan-newyork-citytimelapse.jpg) no-repeat center center fixed;
 }
 
-.container {
+.container1 {
     display: flex;
     width: 100%;
-    height: 50vh;
-    margin: 1em;
+    height: 15em;
+    margin-top: 1em;
     background-color: rgba(37, 27, 27, 0.425);
     align-items: center;
     align-content: center;
     flex-direction: column;
-    /* justify-content: space-around; */
-    border-radius: 20em;
-    position: relative;
-    /* background:  url(../img/Money-Origami1.jpeg) */
+    justify-content: center;
+    text-align: center;
 }
-div::before {
-    content: "";
-    border-radius: 20em;
-    background: url(../img/Money11111.jpeg);
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
+.container2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#convertedValue {
+    color: rgb(0, 183, 255);
+    background-color: rgba(255, 0, 0, 0.274);
+}
+
+#convertedValue:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(74, 107, 252, 0.582);
 }
 h1 {
     color: rgba(0, 255, 255, 0.808);
@@ -37,18 +35,19 @@ h1 {
 
 #inputValue {
     border-radius: 4em;
-    border-style: hidden;
-    width: 30rem;
-    height: 3rem;
-    font-size: 2rem;
+    /* border-style: hidden; */
+    width: 15em;
+    /* height: 2em; */
+    font-size: 1em;
     text-align: center;
     color: rgb(124, 48, 194);
     outline: none;
 }
 
 #inputValue:hover {
-    opacity: 0.9;
-    order: unset;
+    box-shadow: rgba(75, 5, 102, 0.582);
+    box-shadow: rgba(212, 88, 57, 0.582);
+    transform: scale(1.014)
     
 }
 
@@ -58,20 +57,24 @@ h1 {
     justify-content: space-around;
 }
 
-.buttons:hover {
-    opacity: 0.75;
-}
+/* .buttons:hover {
+    background-color: rgb(134, 201, 27);
+} */
 
 #btns {
-    border-radius: 1em;
-    background-color: gold;
-    border-style: groove;
+    border-radius: 0.5em;
+    background-color: rgba(79, 27, 201, 0.199);
+    border-style: hidden;
     border-spacing: 2em;
-    font-size: 2em;
-    color: navy;
+    font-size: 1em;
+    color: rgb(252, 255, 210);
     outline: none;
 }
-
+#btns:hover {
+    background-color: rgb(196, 255, 118);
+    color: rgb(71, 2, 14);
+   
+}
 h3 {
     font-size: 3rem;
     color: rgb(126, 2, 2);
